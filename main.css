@@ -1,0 +1,240 @@
+body {
+  background-color: #e5e2e2;
+  margin: 0;
+  padding: 0;
+  animation: animacja 3s;
+}
+
+.ja {
+  font-family: "Dancing Script", cursive;
+  font-size: 13.5px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+}
+
+.PI {
+  display: block;
+  width: 52px;
+  height: 52px;
+  margin-left: auto;
+  margin-right: auto;
+  animation: AnimacjaPI 12s linear infinite;
+}
+
+@keyframes AnimacjaPI {
+  10% {
+    opacity: 12.5%;
+  }
+  15% {
+    opacity: 92.5%;
+  }
+  22% {
+    opacity: 12.5%;
+  }
+  33% {
+    opacity: 92.5%;
+  }
+  44% {
+    opacity: 12.5%;
+  }
+  55% {
+    opacity: 92.5%;
+  }
+  66% {
+    opacity: 12.5%;
+  }
+  77% {
+    opacity: 92.5%;
+  }
+  88% {
+    opacity: 12.5%;
+  }
+  100% {
+    opacity: 92.5%;
+  }
+}
+
+.btnpi {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 140px;
+  height: 22px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  background: #dad6d6;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.btnpi:hover {
+  background: grey;
+  color: white;
+}
+
+.liczbapi {
+  overflow: hidden;
+  margin: 0 auto;
+  letter-spacing: 4px;
+  font-family: "Dancing Script", cursive;
+  white-space: nowrap;
+  border-right: 5px solid grey;
+  animation: typingpi 3.5s steps(30, end);
+  display: grid;
+  place-items: center;
+  display: none;
+}
+
+@keyframes typingpi {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+main {
+  margin-left: 5rem;
+}
+
+.navbar {
+  font-size: 1.5em;
+  font-family: "Dancing Script", cursive;
+  width: 5rem;
+  height: 100vh;
+  position: fixed;
+  background-color: #dad6d6;
+  transition: 400ms ease;
+}
+
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item {
+  transition: 872ms background-color;
+  width: 100%;
+}
+.item:hover {
+  background-color: #e5e2e2;
+}
+.item:last-child {
+  margin-top: auto;
+}
+
+.linknav {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.link {
+  display: none;
+}
+
+.linknav svg {
+  margin: 0 1.5rem;
+  min-width: 2rem;
+}
+
+.navbar:hover {
+  width: 12rem;
+}
+
+.navbar:hover .link {
+  display: block;
+}
+
+.firsth1 {
+  font-size: 2.5rem;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 0;
+  display: grid;
+  place-items: center;
+  margin: 0;
+  animation: AnimacjaH1 22s linear infinite;
+}
+
+.williamJones {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  display: block;
+  margin: auto;
+}
+
+@keyframes AnimacjaH1 {
+  10% {
+    opacity: 12.5%;
+  }
+  15% {
+    opacity: 92.5%;
+  }
+  22% {
+    opacity: 12.5%;
+  }
+  33% {
+    opacity: 92.5%;
+  }
+  44% {
+    opacity: 12.5%;
+  }
+
+  55% {
+    opacity: 92.5%;
+  }
+  66% {
+    opacity: 12.5%;
+  }
+  77% {
+    opacity: 92.5%;
+  }
+  88% {
+    opacity: 12.5%;
+  }
+  100% {
+    opacity: 92.5%;
+  }
+}
+
+.firstth2 {
+  font-family: "Dancing Script", cursive;
+  display: grid;
+  place-items: center;
+}
+
+@keyframes animacja {
+  0% {
+    opacity: 10%;
+  }
+}
+
+.Ja1 {
+  display: grid;
+  place-items: center;
+  font-family: "Dancing Script", cursive;
+  padding: 0px;
+  margin: 0px;
+}
+
+.img-Htmlcssjs {
+  width: 200px;
+  height: 230px;
+  display: block;
+  margin: auto;
+}
+
+.pi {
+  border: 1px solid transparent;
+  border-radius: 12px;
+  padding: 0px;
+  margin-top: 22px;
+  box-shadow: 0px 0px 12px darkorange;
+}
