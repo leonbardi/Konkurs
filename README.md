@@ -1,0 +1,2 @@
+# Konkurs
+Na konkurs
